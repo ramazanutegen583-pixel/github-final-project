@@ -1,0 +1,18 @@
+$ git branch -a -vv
+* bug-fix-revert                428b067 [origin/bug-fix-revert] Revert "Fix copyright year typo in README"
+  bug-fix-typo                  bdd86a1 [origin/bug-fix-typo] Fix copyright year typo in README
+  main                          bdd86a1 [origin/main] Fix copyright year typo in README
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 428b067 Revert "Fix copyright year typo in README"
+  remotes/origin/bug-fix-typo   bdd86a1 Fix copyright year typo in README
+  remotes/origin/main           bdd86a1 Fix copyright year typo in README
+
+$ git status
+On branch bug-fix-revert
+Your branch is up to date with 'origin/bug-fix-revert'.
+
+nothing to commit, working tree clean
+
+$ git branch --merged main
+  bug-fix-typo
+  main
